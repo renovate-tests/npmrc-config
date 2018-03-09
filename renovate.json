@@ -1,0 +1,8 @@
+{
+  "extends": ["config:base"],
+  "pinVersions": false,
+  "lockFileMaintenance": { "enabled": true, "schedule": [] },
+  "schedule": [],
+  "rebaseStalePrs": true,
+  "npmrc": "registry=//npm.company.net:4444/"
+}
